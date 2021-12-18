@@ -34,6 +34,9 @@ import org.myorg.quickstart.util.Reflections;
 import lombok.extern.slf4j.Slf4j;
 
 /**
+ * @author tengyujia <tengyujia@buaa.edu.cn>
+ * Created on 2021-12-16
+ * <p>
  * Skeleton for a Flink Batch Job.
  *
  * <p>For a tutorial how to write a Flink batch application, check the

@@ -10,6 +10,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 
+/**
+ * @author tengyujia <tengyujia@buaa.edu.cn>
+ * Created on 2021-12-16
+ */
 public class Reflections {
 
     private Reflections() {

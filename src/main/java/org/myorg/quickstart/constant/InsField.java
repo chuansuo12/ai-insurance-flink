@@ -1,7 +1,7 @@
 package org.myorg.quickstart.constant;
 
 /**
- * @author tengyujia <tengyujia@kuaishou.com>
+ * @author tengyujia <tengyujia@buaa.edu.cn>
  * Created on 2021-12-16
  */
 public class InsField {

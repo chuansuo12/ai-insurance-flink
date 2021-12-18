@@ -15,7 +15,7 @@ import org.apache.commons.lang3.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author tengyujia <tengyujia@kuaishou.com>
+ * @author tengyujia <tengyujia@buaa.edu.cn>
  * Created on 2021-12-16
  */
 @Slf4j

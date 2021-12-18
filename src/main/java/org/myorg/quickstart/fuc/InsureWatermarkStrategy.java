@@ -6,7 +6,7 @@ import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.myorg.quickstart.dto.Insurance;
 
 /**
- * @author tengyujia <tengyujia@kuaishou.com>
+ * @author tengyujia <tengyujia@buaa.edu.cn>
  * Created on 2021-12-17
  */
 public class InsureWatermarkStrategy implements WatermarkStrategy<Insurance> {
