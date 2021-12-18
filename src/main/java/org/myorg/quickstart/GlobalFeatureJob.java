@@ -51,12 +51,14 @@ public class GlobalFeatureJob {
 
 
     public static void main(String[] args) throws Exception {
-        final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         final String filePath = "/Users/tengyujia/local-data/ai-smart/renamed_column_train.csv";
         final String writePath = "/Users/tengyujia/local-data/ai-smart/";
-        String[] insFields = Reflections.getAllFieldNames(Insurance.class);
 
+        final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+        env.setParallelism(12);
+
+        final String[] insFields = Reflections.getAllFieldNames(Insurance.class);
         DataSet<Insurance> input = env.readCsvFile(filePath)
                 .parseQuotedStrings('"')//忽略被引号包裹的部分
                 .fieldDelimiter(",")
